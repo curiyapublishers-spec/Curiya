@@ -1,0 +1,15 @@
+body{margin:0;font-family:Poppins,sans-serif;background:#FFF8E7;color:#46311d}
+header{position:sticky;top:0;background:#F8EBCF;display:flex;justify-content:space-between;align-items:center;padding:15px 8%;box-shadow:0 2px 10px rgba(0,0,0,.08)}
+.logo{width:70px}.logo-wrap{display:flex;align-items:center;gap:15px}
+nav a{text-decoration:none;color:#0d2a57;margin-left:20px;font-weight:600}
+.hero{padding:110px 10%;text-align:center}
+.hero h1{font-family:"Cormorant Garamond",serif;font-size:64px;color:#0d2a57}
+section{padding:70px 10%}
+h2{font-family:"Cormorant Garamond",serif;color:#0d2a57;font-size:42px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:25px}
+.card{background:#fff;border-radius:15px;padding:25px;box-shadow:0 8px 25px rgba(0,0,0,.08)}
+.btn{display:inline-block;background:#b8860b;color:#fff;padding:14px 28px;border-radius:30px;text-decoration:none}
+footer{text-align:center;background:#F2E3C6;padding:20px}
+.reveal{opacity:0;transform:translateY(30px);transition:all .8s}
+.reveal.active{opacity:1;transform:none}
+@media(max-width:768px){header{flex-direction:column}nav{margin-top:10px}.hero h1{font-size:42px}}
